@@ -1,0 +1,7 @@
+num = int(input('Digite um número para conversão: '))
+print()
+print('-1 para binário')
+print('-2 para octal')
+print('-3 para hexadecimal')
+print()
+conv = int(input('Escolha o tipo de conversão: '))
