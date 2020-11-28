@@ -1,6 +1,7 @@
 num = int(input('Digite um número: '))
-f = 1
-r = 1
+x = 0
+f = 0
 while f < num:
-    f += 1
-    res = f * f
+    
+    f+=1
+    print(x)
