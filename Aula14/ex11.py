@@ -1,10 +1,8 @@
-cont = 0
-soma = 0
-x = 0
-while x != 999:
-    x = int(input('Digite um número: '))
-    soma += x
+cont = soma = num = 0
+num = int(input('Digite um número [999 para parar]: '))
+while num != 999:
+    soma += num
     cont += 1
-    
-print(f'Quantidade de números digitados {cont}')
-print(f'A soma dos valores são {soma}')
+    num = int(input('Digite um número [999 para parar]: '))
+
+print(f'Voçê digitou {cont} números e a soma entre eles foi {soma}')

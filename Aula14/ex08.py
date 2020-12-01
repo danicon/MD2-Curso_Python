@@ -1,6 +1,11 @@
-termo = int(input('Escolha o primeiro termo? '))
-razao = int(input('Escolha a razão: '))
-decimo = termo + (10 - 1) * razao
-
-while razao < decimo:
-    
+print('Gerador de PA')
+print('-='*10)
+primeiro = int(input('Primeiro termo: '))
+razao = int(input('Razao da PA: '))
+termo = primeiro
+cont = 1
+while cont <= 10:
+    print(f'{termo} \032 ', end='')
+    termo += razao
+    cont += 1   
+print('FIM')
