@@ -1,9 +1,8 @@
-print(7*'=','FIM DO PROGRAMA',7*'=')
 ida = hosx = musx = 0
 
 while True:
     print(20*'-')
-    print('CADASTRE UMA PESSOA')
+    print(f'{"CADASTRE UMA PESSOA":^20}')
     print(20*'-')
     idade = int(input('Idade: '))
     sexo = str(input('Sexo: [M/F] ')).strip().upper()

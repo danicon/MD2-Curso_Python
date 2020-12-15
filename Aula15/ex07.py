@@ -1,5 +1,5 @@
 print(20*'-')
-print('LOJA SUPER BARATÃO')
+print(f'{"LOJA SUPER BARATÃO":^20}')
 print(20*'-')
 soma = p = cont = menor = 0
 while True:
@@ -11,12 +11,9 @@ while True:
     soma += preco
     if preco > 1000:
         p += 1
-    if cont == 0:
+    if cont == 0 or preco < menor:
         menor = preco
-    else:
-        if preco < menor:
-            menor = preco
-            nome = prdnome
+        nome = prdnome
     if conti == 'N':
         break
     cont += 1
